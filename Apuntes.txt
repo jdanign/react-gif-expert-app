@@ -23,4 +23,9 @@ PREPARAR EL REPOSITORIO GIT
 5. Para recuperar todos archivos de la captura. Comando 'git checkout -- .'
 6. Renombra la rama principal a otro nombre, por ejemplo 'main'. Comando 'git branch -M main'.
 7. Añade el repositorio remoto. Comando 'git remote add origin https://github.com/jdanign/react-gif-expert-app.git'.
-8. Sube los cambios de la rama 'main' en el repositorio por defecto al 'origin' establecido antes como remoto.
+8. Sube los cambios de la rama 'main' en el repositorio por defecto al 'origin' establecido antes como remoto. Comando 'git push -u origin main'.
+9. Crear el archivo 'README.md' y escribir en el. 
+10. Actualizar los cambios en github:
+    'git add .'
+    'git commit -m "Readme agregado"'
+    'git push'
