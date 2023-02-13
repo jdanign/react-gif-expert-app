@@ -1,0 +1,19 @@
+Ejecuta 'yarn build' para generar los archivos de distribución del proyecto.
+
+Dentro del directorio 'dist' generado, ejecuta 'npm install --global http-server' y luego 'http-server -o'.
+
+Esto ejecutará un servidor web para mostrar el proyecto generado en 'dist' como si estuviera desplegado en un servidor real pero en localhost.
+
+
+
+
+DISTRIBUCIÓN
+
+En netlify.com se puede hacer el despliegue de una aplicación web frontend.
+En la pantalla de inicio, clic en 'Sites' y ahí se puede arrastrar y soltar la carpeta de 'dist' desde el explorador de windows.
+Una vez se procese el proyecto ya se puede utilizar de forma remota.
+
+
+PREPARAR EL REPOSITORIO GIT
+
+1. El proyecto debe tener un archivo '.gitignore'
