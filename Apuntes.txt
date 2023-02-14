@@ -30,6 +30,6 @@ PREPARAR EL REPOSITORIO GIT
 8. Sube los cambios de la rama 'main' en el repositorio por defecto al 'origin' establecido antes como remoto. Comando 'git push -u origin main'.
 9. Crear el archivo 'README.md' y escribir en el. 
 10. Actualizar los cambios en github:
-    'git add .'
-    'git commit -m "Readme agregado"'
-    'git push'
+    git add .
+    git commit -m "Readme agregado"
+    git push
