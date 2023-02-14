@@ -5,6 +5,10 @@ Dentro del directorio 'dist' generado, ejecuta 'npm install --global http-server
 Esto ejecutará un servidor web para mostrar el proyecto generado en 'dist' como si estuviera desplegado en un servidor real pero en localhost.
 
 
+Para incorporar los propTypes:
+yarn add prop-types
+
+
 
 
 DISTRIBUCIÓN

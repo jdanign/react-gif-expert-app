@@ -7,6 +7,7 @@ import {getGifs} from '../helpers/getGifs';
  * @returns 
  */
 export const useFetchGifs = (category)=>{
+    // Valores del objeto retornado establecidos como estados e inicializados
     const [images, setImages] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     
